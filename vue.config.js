@@ -32,4 +32,22 @@ module.exports = {
       skipWaiting: true,
     },
   },
+  pluginOptions: {
+    electronBuilder: {
+      builderOptions: {
+        icon: 'icons/icon.png',
+        productName: 'NEST Desktop',
+        linux: {
+          target: 'snap',
+          icon: 'icons/icon.png',
+          category: 'system',
+          maintainer: 'name',
+        },
+        snap: {
+          confinement: 'classic',
+          grade: 'devel',
+        },
+      },
+    },
+  },
 };
