@@ -2,7 +2,7 @@
   "name": "nest-desktop",
   "version": "3.0.3",
   "private": true,
-  "description": "NEST Desktop is an graphical user interface (GUI), which is distinct from the simulation engine running anywhere, on the student’s laptop or on a supercomputer. It comprises graphical elements for creating and configuring network models, running simulations, as well as for visualizing and analyzing the results. NEST Desktop allows students to explore important concepts in computational neuroscience without the need to learn a simulator control language before.",
+  "description": "A graphical user interface (GUI), which comprises graphical elements for creating and configuring biological network models, running simulations, as well as for visualizing and analyzing the results.",
   "author": "Sebastian Spreizer",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -41,7 +41,7 @@
     "vue-plotly": "^1.1.0",
     "vue-property-decorator": "9.1.2",
     "vue-router": "^3.0.3",
-    "vue-toast-notification": "^0.6.1",
+    "vue-toast-notification": "0.6.1",
     "vuedraggable": "^2.24.3",
     "vuetify": "^2.3.19",
     "vuex": "^3.0.1"
@@ -72,7 +72,7 @@
     "@vue/test-utils": "^1.2.1",
     "babel-eslint": "^10.0.1",
     "chai": "^4.1.2",
-    "electron": "^13.0.0",
+    "electron": "^14.0.0",
     "electron-devtools-installer": "^3.1.0",
     "eslint": "^7.28.0",
     "eslint-plugin-prettier": "^4.0.0",
